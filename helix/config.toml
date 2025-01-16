@@ -7,6 +7,7 @@ cursorline = true # これもデフォルトでfalseなのでtrueにするとlih
 color-modes = true # ステータスラインにモードごとに色が表示されるようにする,テーマ依存なので色が変になったらテーマが対応していないので注意が必要
 auto-completion = true # 任意のキーで補完をしたい人はfalseにする
 auto-save = true # これも任意で保存したい人はfalseにする
+shell = ["pwsh", "-c"]
 
 [editor.cursor-shape]
 insert = "bar"
@@ -28,7 +29,8 @@ max-depth = 6 # pickerの検索するフォルダーの深さ
 hidden = false # 隠しファイルフォルダーを検索しない
 
 [editor.whitespace.render]
-space = "all" # "all"か"none"の2択しかない
+space = "none" # "all"か"none"の2択しかない
+nbsp = "all"
 tab = "all"
 newline = "all"
 
