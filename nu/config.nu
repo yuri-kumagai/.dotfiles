@@ -9,6 +9,7 @@
 
 source conf.d/index.nu
 use functions/
+use wave/
 
 let dark_theme = {
     # color for nushell primitives

@@ -14,10 +14,7 @@ if ($InstallPkg = $true) {
 $linkSettings = @(
     @{ src = ".wezterm.lua"; dst = "$env:USERPROFILE\.wezterm.lua" },
     @{ src = "Microsoft.PowerShell_profile.ps1"; dst = "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" },
-    @{ src = "nu\config.nu"; dst = "$env:USERPROFILE\AppData\Roaming\nushell\config.nu" },
-    @{ src = "nu\env.nu"; dst = "$env:USERPROFILE\AppData\Roaming\nushell\env.nu" },
-    @{ src = "nu\conf.d"; dst = "$env:USERPROFILE\AppData\Roaming\nushell\conf.d" },
-    @{ src = "nu\functions"; dst = "$env:USERPROFILE\AppData\Roaming\nushell\functions" },
+    @{ src = "nu"; dst = "$env:USERPROFILE\AppData\Roaming\nushell" },
     @{ src = "helix"; dst = "$env:USERPROFILE\AppData\Roaming\helix" },
     @{ src = "broot\conf.hjson"; dst = "$env:USERPROFILE\AppData\Roaming\dystroy\broot\config\conf.hjson" },
     @{ src = "broot\verbs.hjson"; dst = "$env:USERPROFILE\AppData\Roaming\dystroy\broot\config\verbs.hjson" },
