@@ -22,7 +22,8 @@ $linkSettings = @(
     @{ src = "broot\conf.hjson"; dst = "$env:USERPROFILE\AppData\Roaming\dystroy\broot\config\conf.hjson" },
     @{ src = "broot\verbs.hjson"; dst = "$env:USERPROFILE\AppData\Roaming\dystroy\broot\config\verbs.hjson" },
     @{ src = "LazyVimSettings"; dst = "$env:USERPROFILE\AppData\Local\nvim" },
-    @{ src = "starship\starship.toml"; dst = "$env:USERPROFILE\.config\starship.toml"}
+    @{ src = "starship\starship.toml"; dst = "$env:USERPROFILE\.config\starship.toml" },
+    @{ src = "waveterm"; dst = "$env:USERPROFILE\.config\waveterm" }
     # 他の設定値を追加する場合はここに追加
 )
 
