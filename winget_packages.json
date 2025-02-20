@@ -45,6 +45,9 @@
         },
         {
           "PackageIdentifier": "CommandLine.Wave"
+        },
+        {
+          "PackageIdentifier": "astral-sh.uv"
         }
       ],
       "SourceDetails": {
