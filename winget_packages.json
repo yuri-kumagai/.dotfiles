@@ -48,6 +48,9 @@
         },
         {
           "PackageIdentifier": "astral-sh.uv"
+        },
+        {
+          "PackageIdentifier": "jdx.mise"
         }
       ],
       "SourceDetails": {

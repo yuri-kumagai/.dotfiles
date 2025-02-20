@@ -11,6 +11,8 @@ source conf.d/index.nu
 use functions/
 use wave/
 
+use '~\AppData\Roaming\dystroy\broot\config\launcher\nushell\br' *
+
 let dark_theme = {
     # color for nushell primitives
     separator: white
@@ -902,4 +904,4 @@ $env.config = {
     ]
 }
 
-use '~\AppData\Roaming\dystroy\broot\config\launcher\nushell\br' *
+use ($nu.default-config-dir | path join mise.nu)
