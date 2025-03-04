@@ -9,8 +9,6 @@
 
 source conf.d/index.nu
 use functions/
-use wave/
-
 use '~\AppData\Roaming\dystroy\broot\config\launcher\nushell\br' *
 
 let dark_theme = {

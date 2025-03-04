@@ -44,9 +44,6 @@
           "PackageIdentifier": "Dystroy.broot"
         },
         {
-          "PackageIdentifier": "CommandLine.Wave"
-        },
-        {
           "PackageIdentifier": "astral-sh.uv"
         },
         {
